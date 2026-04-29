@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from environs import Env
 
-@dataclass
+@dataclass           
 class DatabaseConfig:
     database_url: str
 
